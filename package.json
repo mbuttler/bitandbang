@@ -1,20 +1,22 @@
 {
-  "name": "bitandbang",
+  "name": "mbuttler_card",
   "version": "1.1.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Matthew Buttler (@diversecauses)",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "mbuttler": "./bin/card.js",
+    "diversecauses": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/mbuttler/bitandbang.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Matthew Buttler",
+  "original_author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
